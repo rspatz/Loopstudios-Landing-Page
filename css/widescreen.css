@@ -1,1 +1,306 @@
+/* Header */
+header {
+  max-width: 100%;
+  height: 40rem;
+  padding: 2.25rem;
+  margin-bottom: 0;
+  background: url(../images/desktop/image-hero.jpg);
+  background-size: cover;
+}
+
+.title-container {
+  margin: 0;
+}
+
+.title-background {
+  width: 45%;
+  margin: 6rem;
+  padding: 1rem;
+}
+
+h1 {
+  font-size: 3.75rem;
+  line-height: 4rem;
+  margin-left: 2rem;
+}
+
+.logo-image {
+  width: 15%;
+  margin: 0 0 0 6rem;
+  position: relative;
+}
+
+/* Navigation */
+.navigation-nav a {
+  text-decoration: none;
+}
+
+.navigation-nav li a {
+  font-family: "JosefinSans-Regular";
+  font-size: 0.9rem;
+  color: hsl(0, 0%, 100%);
+}
+
+.navigation-nav {
+  height: 1rem;
+  opacity: 1;
+  margin: 1rem 0 0 45rem;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+}
+
+.navigation-nav ul {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+}
+
+.navigation-nav li a:hover {
+  text-decoration-line: underline;
+  text-underline-offset: 1rem;
+}
+
+.navigation-background,
+.navigation-button {
+  visibility: hidden;
+}
+
+/* Navigation Link */
+.navigation-item {
+  margin: 0;
+}
+
+.navigation-link:link,
+.navigation-link:visited {
+  font-size: 0.85rem;
+  font-weight: 300;
+  text-transform: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.navigation-link:link span,
+.navigation-link:visited span {
+  display: 1;
+}
+
+.navigation-link:hover,
+.navigation-link:active {
+  background-position: 0;
+  color: white;
+  transform: none;
+}
+
+.navigation-nav {
+  position: relative;
+}
+
+/* About Section */
+.about {
+  height: 20rem;
+  margin: 5rem 0 18rem 0;
+}
+
+.about-img {
+  width: 50%;
+  margin: 3rem 1.3rem 3rem 1.5rem; /* Could not get 'margin: 3rem auto' to center image */
+  position: relative;
+  z-index: 1;
+}
+
+.about-header {
+  width: 42%;
+  margin: -18rem 0 5rem 35rem; /* Why -18rem? */
+  padding: 2rem;
+  background: hsl(0, 0%, 100%);
+  position: relative;
+  z-index: 10;
+}
+
+.about-header h2 {
+  font-size: 2.75rem;
+  line-height: 2.5rem;
+}
+
+.about p {
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+  text-align: left;
+  margin-left: 4.5rem;
+}
+
+/* Creations */
+.creations {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.creations h3 {
+  width: 30%;
+  margin: 3rem 10rem;
+  text-align: left;
+}
+
+/* Images Section */
+.images {
+  width: 90%;
+  flex-direction: column;
+  margin: 0 10rem;
+}
+
+.images h4 {
+  width: 90%;
+  margin: 15rem auto;
+  color: hsl(0, 0%, 100%);
+}
+
+.box1 {
+  background: url(../images/desktop/image-deep-earth.jpg);
+  background-size: cover;
+  height: 30vh;
+  width: 90%;
+}
+
+.box2 {
+  background: url(../images/desktop/image-night-arcade.jpg);
+  background-size: cover;
+}
+
+.box3 {
+  background: url(../images/desktop/image-soccer-team.jpg);
+  background-size: cover;
+}
+
+.box4 {
+  background: url(../images/desktop/image-grid.jpg);
+  background-size: cover;
+}
+
+.box5 {
+  background: url(../images/desktop/image-from-above.jpg);
+  background-size: cover;
+}
+
+.box6 {
+  background: url(../images/desktop/image-pocket-borealis.jpg);
+  background-size: cover;
+}
+
+.box7 {
+  background: url(../images/desktop/image-curiosity.jpg);
+  background-size: cover;
+}
+
+.box8 {
+  background: url(../images/desktop/image-fisheye.jpg);
+  background-size: cover;
+}
+
+.box1,
+.box2,
+.box3,
+.box4,
+.box5,
+.box6,
+.box7,
+.box8 {
+  height: 25rem;
+  width: 25%;
+  margin: 0 2rem 2rem 0;
+}
+
+.images-set1 {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+}
+
+.images-set2 {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+}
+
+button {
+  width: 15%;
+}
+
+.button-container-mobile {
+  visibility: hidden;
+}
+
+.button-container-desktop {
+  visibility: hidden;
+}
+
+/* Footer */
+footer {
+  height: 10rem;
+  max-width: 100%;
+}
+
+.footer-image .logo-image {
+  width: 15%;
+  margin: 2rem 0 0 7rem;
+}
+
+.footer-nav {
+  margin: 0 0 0 5rem;
+}
+
+.footer-nav ul {
+  display: flex;
+  flex-direction: row;
+  width: 15%;
+  margin: 1rem 0;
+  line-height: 3rem;
+}
+
+.footer-nav a {
+  font-family: "Alata-Regular";
+  margin-left: 2rem;
+  font-size: 0.9rem;
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+}
+
+.footer-nav a:hover {
+  text-decoration-line: underline;
+  text-underline-offset: 1rem;
+  color: hsl(0, 0%, 100%);
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+/* Social Media Icons */
+.social-media {
+  letter-spacing: 0.75rem;
+  width: 12%;
+  margin: -7rem 0 0 66rem;
+}
+
+/* Copyright */
+.copyright {
+  width: 20%;
+  margin: 1rem 0 0 60rem;
+}
+
+.copyright h5 {
+  font-family: "Alata-Regular";
+  font-size: 0.8rem;
+  color: hsl(0, 0%, 55%);
+  margin: 0;
+}
+
+/* Attribution */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
 
