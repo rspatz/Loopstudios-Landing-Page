@@ -59,6 +59,7 @@ h1 {
 .navigation-nav li a:hover {
   text-decoration-line: underline;
   text-underline-offset: 1rem;
+  transition: all 1000ms ease;
 }
 
 .navigation-background,
@@ -90,6 +91,7 @@ h1 {
   background-position: 0;
   color: white;
   transform: none;
+  transition: all 1000ms ease;
 }
 
 .navigation-nav {
@@ -150,7 +152,7 @@ h1 {
 }
 
 .images h4 {
-  width: 90%;
+  width: 80%;
   margin: 15rem auto;
   color: hsl(0, 0%, 100%);
 }
@@ -226,12 +228,32 @@ button {
   width: 15%;
 }
 
+.creations-link {
+  display: flex;
+}
+
+.creations-link button {
+  width: 100%;
+  margin-left: 5rem;
+}
+
 .button-container-mobile {
   visibility: hidden;
 }
 
 .button-container-desktop {
-  visibility: hidden;
+  visibility: visible;
+}
+
+.button-container-desktop button:hover {
+  background-color: hsl(0, 0%, 0%);
+  border-color: none;
+  transition: all 1000ms ease;
+}
+
+.button-container-desktop a:hover {
+  color: hsl(0, 0%, 100%);
+  transition: all 1000ms ease;
 }
 
 /* Footer */
@@ -269,6 +291,7 @@ footer {
   text-decoration-line: underline;
   text-underline-offset: 1rem;
   color: hsl(0, 0%, 100%);
+  transition: all 1000ms ease;
 }
 
 .footer a {
@@ -303,4 +326,3 @@ footer {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
-
