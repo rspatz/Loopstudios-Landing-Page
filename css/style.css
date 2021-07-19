@@ -187,7 +187,6 @@ header {
   text-transform: uppercase;
   background-size: 220%;
   transition: all 0.4s;
-  /* display: none;*/
 }
 
 .navigation-link:link span,
@@ -451,7 +450,7 @@ footer {
 /* Copyright */
 .copyright {
   font-family: "Alata-Regular";
-  width: 75%;
+  width: 70%;
   margin: 0 auto;
 }
 
